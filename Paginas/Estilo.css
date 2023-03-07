@@ -1,0 +1,285 @@
+/*Headers*/
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo img {
+  width: 100px;
+}
+.nologo img {
+  width: 100px;
+}
+.nologo{
+  display:flex;
+}
+.menu{
+  text-align: center;
+}
+.menu ul {
+  display: inline-flex;
+  list-style: none;
+}
+.menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+.menu a:hover {
+  background-color: #eee;
+}
+.menu a.active {
+  font-weight: bold;
+}
+.search input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.search button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.img-telf{
+  display: inline-flex;
+  float: left;
+}
+.phone {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+
+/* Estilo para el contenedor principal */
+
+.centrar{
+  display:	flex;
+  justify-content: center;
+}
+.imagenc{  display:	inline-block;
+  justify-content: space-between;
+  margin-left: 690px;
+}
+section{padding:30px 30px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top:5px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 2px 2px cadetblue;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+.texto{
+  text-align: center;
+}
+.imagencentral{
+  float-displace: inherit;
+  padding-left: 640px;
+  width: 500px;
+}
+/*Cuadro central*/
+h2{
+  text-align: center;
+}
+p{
+  text-align: left ;
+}
+.home-dive{padding: 30px 30px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top:5px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 2px 2px cadetblue;
+}
+
+.home-parrafo{
+text-align: left;
+}
+.home-btn {
+  background-color: lightseagreen;
+  color: lightseagreen;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  text-align: center;
+}
+.btn-centro{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+/* Estilo para el botón del portfolio */
+.portfolio-btn {
+  background-color: lightseagreen;
+  color: lightseagreen;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  text-align: center;
+}
+
+.portfolio-btn:hover {
+  background-color: deepskyblue;
+}
+
+.img-conten{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-container p {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+.button {background-color: lightseagreen;
+  color: black;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  text-align: center;
+}
+
+.negrita{
+  font-weight: bolder;
+}
+.boton-footer{
+  text-align: center;
+  align-content: center;
+}
+footer {
+  background-color: lightskyblue;
+}
+
+.foot {
+  background-color: white;
+  display: inline-flex;
+  text-align: left;
+}
+.foott{
+  float: right;
+}
+
+.mapa{
+  width: 100%;
+  height: 350px;
+  border:0px;
+}
+
+.formulario{padding:30px 30px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top:5px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 2px 2px cadetblue;
+  background-image: url("../Imagenes/istockphoto-1019444378-170667a.jpg");
+  background-size: cover;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.footer-table td {
+  padding: 10px;
+  border: none;
+}
+
+.footer-table tr:nth-child(odd) {
+  background-color:lightskyblue;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  background-color: lightskyblue;
+  color: #000000;}
+
+/* Estilos para la sección de cuotas */
+
+section {
+  display: inline-block;
+  width: 20%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 2px 2px cadetblue;
+}
+
+section header {
+  background-color: #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section ul li {
+  padding: 5px 0;
+}
+
+section footer {
+  padding-top: 10px;
+  text-align: right;
+}
+
+#form {
+  font-weight: bold;
+  text-align: center;
+  background-color: #eeeeee;
+}
